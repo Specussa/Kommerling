@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .popap{
+        max-width: 700px;
+        height: 381px;
+        background: #FFFFFF;
+        justify-content: right;
+        display: flex;
+    }
+    .popap p {
+        text-align: left;
+        display: flex;
+        width: 408px;
+        height: 252px; 
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;    
+        margin: auto 10px;
+        color: #1A222B;     
+    }
+    .popap img{
+        width: 202px;
+        height: 228px;
+        margin: auto 15px;
+
+
+    }
+    .popap .order,.popap .feedback{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 12px 27px;
+        gap: 10px;
+        width: 204px;
+        height: 49px;
+        background: #FFCB74;
+        border-radius: 30px;
+    }
+    .popap .order p{
+        width: 150px;
+        height: 25px;   
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #7A400B;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-top: -3px;
+        margin-left: 0px;
+    }
+    .popap .feedback p {
+        width: 109px;
+        height: 25px;
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #7A400B;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-top: -3px;
+        margin-left: 20px; 
+        
+    }
+    </style>
+<body style="background-color: #000;">
+    
+
+    <div class="popap"> 
+        <div style="display: flex;flex-direction: column; margin: 20px;">
+        <div style="display: flex;flex-direction: row;">
+        <img src="./img/popap/popap.png">
+        <p> 
+        Пластиковые окна пвх — это многокамерная оконная система, отличающаяся высокой надежностью, качеством, теплосберегающими технологиями.
+        Пластиковые евро окна смотрятся идеально: ровные однотонные поверхности, высокие характеристики светопропускания.
+        </p>
+        </div>
+    <div style="display: flex;flex-direction: row;margin-top: 30px; ">
+    <button class="order" style="margin-left: 13px;"><p>Заказать услугу</p></button>
+    <button class="feedback" style="margin-left: 30px;"><p>Подробнее</p></button>
+    </div>
+    </div>
+    
+    </div>
+</body>
+</html>

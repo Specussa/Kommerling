@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #sale_form {
+            display: flex;
+            flex-direction: column;
+            height: 638px;
+            width: 495px;
+            background: linear-gradient(327.39deg, rgba(255, 203, 116, 0.42) -27.69%, rgba(255, 203, 116, 0) 99.51%), #1A222B;
+            background-blend-mode: hard-light, normal;
+        }
+        #sale_form .text_head{
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 45px;       
+            color: #EEEDE8;
+            margin-top: 50px;
+            margin-left: 40px;
+        }
+        #sale_form input{
+            width: 357px;
+            height: 49px;
+            border: 1px solid #eeede8;
+            border-radius: 25px;
+            background-color: inherit;
+            font-size: 20px;
+            padding-left: 25px;
+            color: #eeede8;
+            margin-bottom: 13px;
+            background: 0;
+            margin-left: 40px;
+                    }
+        #sale_form input placeholder{
+    
+            width: 164px;
+            height: 23px;
+        
+
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 112.7%;
+
+            /* identical to box height, or 23px */
+
+            color: #EEEDE8;
+        }
+        #sale_form  .label{
+            box-sizing: border-box;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 21px;
+            gap: 12px;
+            width: 385px;
+            height: 80px;
+            border: 1px dashed #EEEDE8;
+            border-radius: 25px;
+            background: 0;
+            margin-left: 40px;
+
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 112.7%;
+            color: #EEEDE8;
+            flex: none;
+            flex-grow: 0;
+        }
+
+        #sale_form  .my {
+              width: 0.1px;
+              height: 0.1px;
+              opacity: 0;
+              overflow: hidden;
+              position: absolute;
+              z-index: -1;
+            }
+
+        #sale_form button{
+            margin-top: 80px;
+            margin-left: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 12px 27px;
+            gap: 10px;
+
+            width: 385px;
+            height: 49px;
+
+            background: #FFCB74;
+            border-radius: 30px;
+        }
+        #sale_form button p{
+            width: 229px;
+            height: 25px;           
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 25px;       
+            color: #7A400B;        
+            margin-top: -3px;
+            margin-left: 50px;
+        }
+        #sale_form #chek{
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        #test {
+            margin-left: 100px;
+            display: flex;
+            flex-direction: column;
+            height: 638px;
+            width: 495px;
+            background: linear-gradient(327.39deg, rgba(255, 203, 116, 0.42) -27.69%, rgba(255, 203, 116, 0) 99.51%), #1A222B;
+            background-blend-mode: hard-light, normal;
+        }
+        #test .text_head{
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 45px;       
+            color: #EEEDE8;
+            margin-top: 50px;
+            margin-left: 40px;
+        }
+        #test input{
+            width: 357px;
+            height: 49px;
+            border: 1px solid #eeede8;
+            border-radius: 25px;
+            background-color: inherit;
+            font-size: 20px;
+            padding-left: 25px;
+            color: #eeede8;
+            margin-bottom: 13px;
+            background: 0;
+            margin-left: 40px;
+                    }
+        #test input placeholder{
+    
+            width: 164px;
+            height: 23px;
+        
+
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 112.7%;
+
+            /* identical to box height, or 23px */
+
+            color: #EEEDE8;
+        }
+        #test  .label{
+            box-sizing: border-box;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 21px;
+            gap: 12px;
+            width: 385px;
+            height: 80px;
+            border: 1px dashed #EEEDE8;
+            border-radius: 25px;
+            background: 0;
+            margin-left: 40px;
+
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 112.7%;
+            color: #EEEDE8;
+            flex: none;
+            flex-grow: 0;
+        }
+
+        #test  .my {
+              width: 0.1px;
+              height: 0.1px;
+              opacity: 0;
+              overflow: hidden;
+              position: absolute;
+              z-index: -1;
+            }
+
+        #test button{
+            margin-top: 80px;
+            margin-left: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 12px 27px;
+            gap: 10px;
+
+            width: 385px;
+            height: 49px;
+
+            background: #FFCB74;
+            border-radius: 30px;
+        }
+        #test button p{
+            
+            width: 229px;
+            height: 25px;           
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 25px;       
+            color: #7A400B;        
+            margin-top: -3px;
+            margin-left: 50px;
+        }
+        #test #chek{
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body >
+    <div style="display: flex;flex-direction: row;">
+    <form id = 'sale_form'>
+        <p class="text_head">Закажите звонок</p>
+        <input type="text" name="name" placeholder="ФИО" class="callus__input" required/>
+        <input type="text"  name="eamil" placeholder="Email" required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+" class="callus__input" required/>
+        <input type="tel"  name="phone" class="callus__input" placeholder="+7(___)___-__-__" required pattern="^\+7\d{3}\d{7}$" maxlength="12" onclick="value='+7'">
+        <label for="myfile" class="label"><img src ='./img/form_donload.png'>Добавить ваш проект </label>
+        <input type="file" class="my" id="myfile" name="myfile" multiple>
+        <button class="callus__btn"><p>Оставить заявку</p></button>
+        <div class="callus__policy">
+        <div style="display:flex; flex-direction: row;margin-top: 25px;margin-left: 40px;">
+        <input type="checkbox" id="chek">
+            <div style=" width: 311px; height: 32px; font-family: 'Cera Pro'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 112.7%; color: #EEEDE8;">
+                  Согласие на обработку персональных данных<br /><a href="#"
+                     >Политика конфиденциальности</a
+                  >
+               </div>
+        </div>
+    </div>
+        
+    </form>
+    <form id = 'test'>
+        <p class="text_head">Закажите звонок</p>
+        <input type="text" name="name" placeholder="ФИО" class="callus__input" value='Иляь' required/>
+        <input type="text"  name="eamil" placeholder="Email" required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+" class="callus__input" value='ily@bk.ru' required/>
+        <input type="tel"  name="phone" class="callus__input" placeholder="+7(___)___-__-__" required pattern="^\+7\d{3}\d{7}$" maxlength="12" value='+79999999999' onclick="value='+7'">
+        <button  type="submit" id="submit" class="callus__btn"><p>Оставить заявку</p></button>
+        <div class="callus__policy">
+        <div style="display:flex; flex-direction: row;margin-top: 25px;margin-left: 40px;">
+        <input type="checkbox" id="chek">
+            <div style=" width: 311px; height: 32px; font-family: 'Cera Pro'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 112.7%; color: #EEEDE8;">
+                  Согласие на обработку персональных данных<br /><a href="#"
+                     >Политика конфиденциальности</a
+                  >
+               </div>
+        </div>
+        
+    </form>
+</div>
+    <script>
+       document.querySelector("#submit").onclick = function(){
+            name = document.forms["test"].elements["name"].value
+            eamil = document.forms["test"].elements["eamil"].value
+            phone = document.forms["test"].elements["phone"].value
+            alert(name)
+            alert(eamil)
+            alert(phone)
+        }
+    </script>
+</body>
+</html>
